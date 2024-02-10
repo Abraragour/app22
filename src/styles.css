@@ -1,0 +1,19 @@
+.border-bottom-left{
+    width: 200px;
+    border: 2px solid;
+    color: black;
+    
+    margin-right: 10PX;
+
+}
+.icon .i{
+    font-size: 20px;
+    color: black;
+
+}
+.border-bottom-right{
+    width:200px;
+    border: 2px solid;
+    color: black;
+    margin-left: 10PX;
+}

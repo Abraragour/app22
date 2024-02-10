@@ -1,0 +1,45 @@
+
+<section class=" container ">
+  <h1 class="fw-bold text-center">PORTFOLIO SECTION</h1>
+
+  
+  <div class=" ABOUT d-flex justify-content-center align-items-center">
+  
+        <div>
+          <div class="border-bottom-left"></div>
+        </div>
+      
+
+      
+        <div class="icon">
+          <i class="fa-solid fa-star"></i>
+        </div>
+      
+      
+        <div>
+          <div class="border-bottom-right"></div>
+        </div>
+      
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-md-4" *ngFor="let product of products">
+          <div class="parent p-4 ">
+            <div class="child position-relative">
+              <img [src]="product.imgpath"  class="w-100" alt='portfolioImage' />
+              <div class="overlay"><i class="text-white fa-solid fa-plus fa-6x"></i></div>
+            </div>
+
+          
+          </div>
+    </div>
+  
+  </div>
+</section>
+
+
+
+
+
+  
