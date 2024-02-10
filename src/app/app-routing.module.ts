@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
 
 {path:'about',component:AboutComponent,title:"about"},
+{path:'',redirectTo:'home',pathMatch:'full'},
 {path:'home',component:HomeComponent,title:"home"},
 {path:'contact',component:ContactComponent,title:"contact"},
 {path:'port',component:PortComponent,title:"PORT"},
